@@ -11,7 +11,7 @@ jobs:
         with:
           python-version: "3.9"
       - name: Install Poetry
-        uses: abatilo/actions-poetry@v2.1.0
+        uses: abatilo/actions-poetry@v2.1.1
         with:
           poetry-version: "1.1.4"
       - name: Poetry Install
@@ -29,7 +29,7 @@ jobs:
         with:
           python-version: "3.9"
       - name: Install Poetry
-        uses: abatilo/actions-poetry@v2.1.0
+        uses: abatilo/actions-poetry@v2.1.1
         with:
           poetry-version: "1.1.4"
       - name: Install bluetooth
@@ -51,7 +51,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install Poetry
-        uses: abatilo/actions-poetry@v2.1.0
+        uses: abatilo/actions-poetry@v2.1.1
         with:
           poetry-version: "1.1.4"
       - name: Install bluetooth
@@ -78,7 +78,7 @@ jobs:
         with:
           python-version: "3.9"
       - name: Install Poetry
-        uses: abatilo/actions-poetry@v2.1.0
+        uses: abatilo/actions-poetry@v2.1.1
         with:
           poetry-version: "1.1.4"
       - name: Poetry Install
